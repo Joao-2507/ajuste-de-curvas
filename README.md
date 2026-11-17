@@ -91,17 +91,19 @@ $$
 
 O símbolo $\odot$ representa a multiplicação elemento a elemento.
 
+
 Por fim, os sinais são reconstruídos utilizando a transformação inversa:
 
 $$
-x_{\text{filtrado}} = \operatorname{Re}(W^H X_f)
+x_{\text{filtrado}} = \mathrm{Re}(W^H X_f)
 $$
 
 $$
-y_{\text{filtrado}} = \operatorname{Re}(W^H Y_f)
+y_{\text{filtrado}} = \mathrm{Re}(W^H Y_f)
 $$
 
 Em que $W^H$ representa a transposta conjugada da matriz de transformação.
+
 
 ### 2. Método dos Mínimos Quadrados (MMQ)
 
